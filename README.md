@@ -11,7 +11,8 @@ This project demonstrates how to control an RGB LED with a common cathode using 
 - 1 Kitronik Edge Connector Breakout Board
 - 1 830 point solderless breadboard
 - 1 560R resistor
-- 8 M/F 6" Premium Jumper Wires
+- 6 M/F 6" Premium Jumper Wires (2 Red, 2 Green, 2 Blue)
+- 1 F/F 6" Premium Jumper Wires (1 Black)
 - 1 RGB Diffused Common Cathode LED - 5 mm
   - Forward Voltage (RGB): (2.0, 3.2, 3.2)V
   - Max forward Current (RGB): (20, 20, 20)mA
@@ -88,7 +89,7 @@ Run this command:
 ```
 
 If you have problems with this, check out the Rust Discovery Book:
-[link text]https://docs.rust-embedded.org/discovery/microbit/index.html
+https://docs.rust-embedded.org/discovery/microbit/index.html
 
 Then run this command:
 
@@ -97,6 +98,6 @@ Then run this command:
 ```
 
 If you have problems with this, check out the Rust Discovery Book:
-[link]https://docs.rust-embedded.org/discovery/microbit/index.html
+https://docs.rust-embedded.org/discovery/microbit/index.html
 
 13. The red LED, green LED, and blue LED should all light up respectively with 250 millsecond rotations. You can now test which anode terminal of your RGB LED is red, green, and blue by pulling out 2 of the 3 female Jumper Wires for the anode pins (the longer legs). You can then reconnect the cables in a color coded fashion.
