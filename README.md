@@ -1,11 +1,11 @@
-Project Title: RGB LED with Common Cathode Control
+#Project Title: Common Cathode RGB LED with RGB color rotation.
 
-Description:
+##Description:
 
 This project demonstrates how to control an RGB LED with a common cathode using the micro:bit V2 and the Kitronik Breakout Board Edge Connector. The code uses a timer to rotate through the colors Red, Green, and Blue, changing colors every 250 milliseconds.
 
 
-Project's hardware:
+##Project's hardware:
 
 - 1 micro:bit V2
 - 1 Kitronik Edge Connector Breakout Board
@@ -17,7 +17,7 @@ Project's hardware:
   - Max forward Current (RGB): (20, 20, 20)mA
   - Max Luminosity (RGB): (2800, 6500, 1200)mcd
 
-Instructions:
+##Instructions:
 
 Here are the instructions for connecting the RGB LED to the breadboard via the Premium Jumper Wires:
 
