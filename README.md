@@ -1,11 +1,11 @@
-#Project Title: Common Cathode RGB LED with RGB color rotation.
+# Project Title: Common Cathode RGB LED with RGB color rotation.
 
-##Description:
+## Description:
 
 This project demonstrates how to control an RGB LED with a common cathode using the micro:bit V2 and the Kitronik Breakout Board Edge Connector. The code uses a timer to rotate through the colors Red, Green, and Blue, changing colors every 250 milliseconds.
 
 
-##Project's hardware:
+## Project's hardware:
 
 - 1 micro:bit V2
 - 1 Kitronik Edge Connector Breakout Board
@@ -17,7 +17,7 @@ This project demonstrates how to control an RGB LED with a common cathode using 
   - Max forward Current (RGB): (20, 20, 20)mA
   - Max Luminosity (RGB): (2800, 6500, 1200)mcd
 
-##Instructions:
+## Instructions:
 
 Here are the instructions for connecting the RGB LED to the breadboard via the Premium Jumper Wires:
 
@@ -64,7 +64,9 @@ a29
 
 For example, in the code:
 
-  - let mut red_led = gpio.p0_09.into_push_pull_output(Level::Low);
+```rust
+  let mut red_led = gpio.p0_09.into_push_pull_output(Level::Low);
+```
 
 Would indicate that the red_led variable has been assigned to Pin 9 on the Kitronik Edge Connector Breakout Board.
 
@@ -81,15 +83,20 @@ Connect the micro:bit V2 to your computer using the USB cable.
 
 Run this command:
 
+```rust
   - cargo build --features v2 --target thumbv7em-none-eabihf
+```
 
 If you have problems with this, check out the Rust Discovery Book:
-https://docs.rust-embedded.org/discovery/microbit/index.html
+[link text]https://docs.rust-embedded.org/discovery/microbit/index.html
 
 Then run this command:
+
+```rust
   - cargo embed --features v2 --target thumbv7em-none-eabihf
+```
 
 If you have problems with this, check out the Rust Discovery Book:
-https://docs.rust-embedded.org/discovery/microbit/index.html
+[link]https://docs.rust-embedded.org/discovery/microbit/index.html
 
 13. The red LED, green LED, and blue LED should all light up respectively with 250 millsecond rotations. You can now test which anode terminal of your RGB LED is red, green, and blue by pulling out 2 of the 3 female Jumper Wires for the anode pins (the longer legs). You can then reconnect the cables in a color coded fashion.
