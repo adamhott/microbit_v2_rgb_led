@@ -43,23 +43,23 @@ Attach the Kitronik Edge Connector Breakout Board to the micro:bit V2. Make sure
 
 3. Connect the female end of the jumper wire to the anode terminals (Red, Green, Blue) of the LED using Red, Green, and Blue M/F 6" Jumper Wires. These are the three shorter ends (anode terminals) of the RGB LED legs for common cathode RGB LEDS. The word common indicates that this will be the connection to the ground pin (0V). Manufacturers also make commmon anode LEDS, but that's not what were using here for this example. 
 
-  The anodes are the positive (+) terminals of the component. For an RGB LED, the anode terminals the longer legs and are connected to the positive side of the power source. You might be wondering, how do I test which anode lights up which color of the RGB Led - Red, Green, or Blue. We take care of that in the final step, step 13. For now, just follow the instructions as they are written.
+- The anodes are the positive (+) terminals of the component. For an RGB LED, the anode terminals the longer legs and are connected to the positive side of the power source. You might be wondering, how do I test which anode lights up which color of the RGB Led - Red, Green, or Blue. We take care of that in the final step, step 13. For now, just follow the instructions as they are written.
 
 4. You'll now have 3 M/F Jumper Wires now with the male ends availalbe. Connect the male end to the breadboard on same hole in the same line just AFTER each resistor for each anode (Red, Green, Blue), respectively.
 
   This is how you match up the holes from the second part of step 2 (the other end of the resistor placed across the gap) to the male ends of the Jumper Wires.
 
-  f27 (other end of resistor) -> j27 (the male end of the Red Jumper Wire that connects to the Red anode terminal)
+- f27 (other end of resistor) -> j27 (the male end of the Red Jumper Wire that connects to the Red anode terminal)
 
-  f28 (other end of resistor) -> j28 (the male end of the Green Jumper Wire that connects to the Green anode terminal)
+- f28 (other end of resistor) -> j28 (the male end of the Green Jumper Wire that connects to the Green anode terminal)
 
-  f29 (other end of resistor) -> j29 (the male end of the Blue Jumper Wire that connects to the Blue anode terminal)
+- f29 (other end of resistor) -> j29 (the male end of the Blue Jumper Wire that connects to the Blue anode terminal)
 
 5. You'll now get 3 M/F Jumper wires. Using those, connect the male end to the breadboard on the hole in the same line just BEFORE each resistor for each Anode (Red, Green, Blue), respectively.
 
-  a27
-  a28
-  a29
+- a27
+- a28
+- a29
 
 6. You'll now have 3 Female ends to insert into the Kitronik Edge Connector Breakout Board. 
 
@@ -91,7 +91,7 @@ Connect the micro:bit V2 to your computer using the USB cable.
 ```
 
   If you have problems with this, check out the Rust Discovery Book:
-  https://docs.rust-embedded.org/discovery/microbit/index.html
+  [link text] https://docs.rust-embedded.org/discovery/microbit/index.html
 
   Then run this command:
 
@@ -100,6 +100,6 @@ Connect the micro:bit V2 to your computer using the USB cable.
 ```
 
   If you have problems with this, check out the Rust Discovery Book:
-  https://docs.rust-embedded.org/discovery/microbit/index.html
+  [link text] https://docs.rust-embedded.org/discovery/microbit/index.html
 
 13. The red LED, green LED, and blue LED should all light up respectively with 250 millsecond rotations. You can now test which anode terminal of your RGB LED is red, green, and blue by pulling out 2 of the 3 female Jumper Wires for the anode pins (the longer legs). You can then reconnect the cables in a color coded fashion.
