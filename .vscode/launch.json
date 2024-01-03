@@ -14,9 +14,9 @@
           {
             "coreIndex": 0,
             //!MODIFY
-            "programBinary": "/Users/adamh/Dev/microbit_bb_one_led/target/thumbv7em-none-eabihf/debug/microbit_buttons_v2",
+            "programBinary": "/Users/adamh/Dev/microbit_v2_rgb_led/target/thumbv7em-none-eabihf/debug/microbit_v2_rgb_led",
             //!MODIFY
-            "svdFile": "/Users/adamh/Dev/microbit_bb_one_led/svd/nrf52833.svd"
+            "svdFile": "/Users/adamh/Dev/microbit_v2_rgb_led/svd/nrf52833.svd"
           }
         ],
         "env": {
