@@ -29,17 +29,17 @@ Attach the Kitronik Edge Connector Breakout Board to the micro:bit V2. Make sure
 
   Insert one end of each resistor into the following holes on the breadboard:
 
-  d27
-  d28
-  d29
+- d27
+- d28
+- d29
 
   Connect the 3 other ends of the 560R resistors to the breadboard in respective order to match the first insertion instructions above.
 
   These must be placed across the gap of the breadboard (the other side).
 
-  f27
-  f28
-  f29
+- f27
+- f28
+- f29
 
 3. Connect the female end of the jumper wire to the anode terminals (Red, Green, Blue) of the LED using Red, Green, and Blue M/F 6" Jumper Wires. These are the three shorter ends (anode terminals) of the RGB LED legs for common cathode RGB LEDS. The word common indicates that this will be the connection to the ground pin (0V). Manufacturers also make commmon anode LEDS, but that's not what were using here for this example. 
 
