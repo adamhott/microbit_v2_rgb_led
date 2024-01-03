@@ -65,9 +65,12 @@ fn main() -> ! {
     let mut timer = Timer::new(board.TIMER0);
 
     // Set up RGB pins
+    //Pin 9 on Breakout Board
     let mut red_led = gpio.p0_09.into_push_pull_output(Level::Low);
-    let mut green_led = gpio.p0_03.into_push_pull_output(Level::Low);
-    let mut blue_led = gpio.p0_04.into_push_pull_output(Level::Low);
+    //Pin 3 on Breakout Board
+    let mut green_led = gpio.p0_31.into_push_pull_output(Level::Low);
+    //Pin 4 on Breakout Board
+    let mut blue_led = gpio.p0_28.into_push_pull_output(Level::Low);
 
     loop {
         rprintln!("Red On!");
