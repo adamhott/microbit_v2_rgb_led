@@ -15,7 +15,7 @@
 - 1 micro:bit V2
 - 1 Kitronik Edge Connector Breakout Board
 - 1 830 point solderless breadboard
-- 1 560R resistor
+- 3 560R resistors
 - 6 M/F 6" Premium Jumper Wires (2 Red, 2 Green, 2 Blue)
 - 1 F/F 6" Premium Jumper Wires (1 Black)
 - 1 RGB Diffused Common Cathode LED - 5 mm
