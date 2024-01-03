@@ -19,47 +19,6 @@ use microbit::hal::time::Hertz;
 fn main() -> ! {
     rtt_init_print!();
 
-     /* 
-    Will work out Pulse Width Modulation example at a later time.
-    
-    rprintln!("Program start!");
-
-   
-    let board = Peripherals::take().expect("Couldn't initialize board.");
-    let gpio = P0Parts::new(board.P0);
-
-    // Set up PWM for RGB
-    let pwm_motor = pwm::Pwm::new(board.PWM0);
-    let pwm_pin_red = gpio.p0_10.into_push_pull_output(Level::Low).degrade();
-    let pwm_pin_green = gpio.p0_09.into_push_pull_output(Level::Low).degrade();
-    let pwm_pin_blue = gpio.p0_07.into_push_pull_output(Level::Low).degrade();
-
-    // Set up output Pins
-    pwm_motor.set_output_pin(pwm::Channel::C0, pwm_pin_red);
-    pwm_motor.set_output_pin(pwm::Channel::C1, pwm_pin_green);
-    pwm_motor.set_output_pin(pwm::Channel::C2, pwm_pin_blue);
-
-    // Define the duty cycles
-    let duty_red: u16 = 5; 
-    let duty_green: u16 = 7;
-    let duty_blue: u16 = 3;
-
-    pwm_motor.set_prescaler(pwm::Prescaler::Div32);
-
-    pwm_motor.set_max_duty(10_u16);
-
-    //Ensure program keeps running
-    pwm_motor.set_duty_off(pwm::Channel::C0, duty_red);
-    rprintln!("Red On!");
-    pwm_motor.set_duty_off(pwm::Channel::C1, duty_green);
-    rprintln!("Green On!");
-    pwm_motor.set_duty_off(pwm::Channel::C2, duty_blue);
-    rprintln!("Blue On!");
- 
-    pwm_motor.loop_inf();
-
-    */
-
     let board = Peripherals::take().unwrap();
     let gpio = P0Parts::new(board.P0);
     let mut timer = Timer::new(board.TIMER0);
