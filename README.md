@@ -76,7 +76,7 @@ Attach the Kitronik Edge Connector Breakout Board to the micro:bit V2. Make sure
   let mut red_led = gpio.p0_09.into_push_pull_output(Level::Low);
 ```
 
-> Would indicate that the red_led variable has been assigned to Pin 9 on > the Kitronik Edge Connector Breakout Board.
+> Would indicate that the red_led variable has been assigned to Pin 9 on the Kitronik Edge Connector Breakout Board.
 
 9. Connect the Female end of the Jumper connected to the Green LED cable to the Kitronik Edge Connector Breakout Board, onto the pin set in the code.
 
