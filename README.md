@@ -1,4 +1,4 @@
-# Project Title: Common Cathode RGB LED with RGB color rotation.
+# Project Title: Common Cathode RGB LED with color rotation every 250 milliseconds.
 
    🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
    🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -108,3 +108,5 @@ Connect the micro:bit V2 to your computer using the USB cable.
    [link text] https://docs.rust-embedded.org/discovery/microbit/index.html
 
 14. The red LED, green LED, and blue LED should all light up respectively with 250 millsecond rotations. You can now test which anode terminal of your RGB LED is red, green, and blue by pulling out 2 of the 3 female Jumper Wires for the anode pins (the longer legs). You can then reconnect the cables in a color coded fashion.
+
+15. Does your RGB LED alternate colors every 250 millseconds?
