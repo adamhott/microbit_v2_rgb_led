@@ -7,13 +7,8 @@ use panic_rtt_target as _;
 use microbit::hal::prelude::*;
 use microbit::hal::gpio::{p0::Parts as P0Parts, Level};
 use microbit::hal::pac::Peripherals;
-//use microbit::hal::pac::gpio;
-//use microbit::hal::pac::gpio::Level;
-use microbit::hal::pac::PWM0;
-use microbit::hal::pwm::{self, Pwm, Channel, Prescaler};
-use microbit::board::Board;
 use microbit::hal::timer::Timer;
-use microbit::hal::time::Hertz;
+
 
 #[entry]
 fn main() -> ! {

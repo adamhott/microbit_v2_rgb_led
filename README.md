@@ -91,8 +91,10 @@ Attach the Kitronik Edge Connector Breakout Board to the micro:bit V2. Make sure
 
 12. Insert the other female end of the Jumper wire into the Kitronik Breakout Board Edge Connector, to one of the 0V pins (Ground pin).
 
-13. Build and Flash your micro:bit V2:
-Connect the micro:bit V2 to your computer using the USB cable. 
+13. Connect the micro:bit V2 to your computer using the micro-USB to USB-A cable. 
+
+14. Build and Flash your micro:bit V2:
+
 
 > Run this command from the root cloned directory:
 
@@ -112,8 +114,8 @@ Connect the micro:bit V2 to your computer using the USB cable.
 > If you have problems with this, check out the Rust Discovery Book:
 - https://docs.rust-embedded.org/discovery/microbit/index.html
 
-14. The red LED, green LED, and blue LED should all light up respectively with 250 millsecond rotations. 
+15. The red LED, green LED, and blue LED should all light up respectively with 250 millsecond rotations. 
 
-15. You can now test which anode terminal of your RGB LED is red, green, and blue by pulling out 2 of the 3 female Jumper Wires for the anode pins (the longer legs). You can then reconnect the cables in a color coded fashion.
+16. You can now test which anode terminal of your RGB LED is red, green, and blue by pulling out 2 of the 3 female Jumper Wires for the anode pins (the longer legs). You can then reconnect the cables in a color coded fashion.
 
-16. Does your RGB LED alternate colors every 250 millseconds?
+17. Does your RGB LED alternate colors every 250 millseconds?
